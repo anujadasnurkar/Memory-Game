@@ -10,7 +10,7 @@ contract('Memory Token', (accounts) => {
   before(async () => {
     token = await MemoryToken.deployed()
   })
-  // code goes here...
+  
   describe('deployment', async () => {
     it('deploys successfully', async () => {
       
